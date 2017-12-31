@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Contact Manager</string>
+    <string name="action_add">Add</string>
+    <string name="label_fname">First Name</string>
+    <string name="label_lname">Last Name</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_email">Email</string>
+    <string name="label_contactDetails">Enter Contact Details</string>
+    <string name="btn_save">Save</string>
+
+    // For extra parameter labels
+    <string name="contactFromFirstActivity">contactFromFirstActivity</string>
+    <string name="newContact">newContact</string>
+    <string name="requestCode">requestCode</string>
+    <string name="isDelete">isDelete</string>
+    <string name="contactsFileName">ContactAppData_Asgn4.txt</string>
+    <string name="addFlag">10</string>
+    <string name="addContactTitle">Add new contact</string>
+    <string name="editContactTitle">Edit contact</string>
+</resources>
