@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:weightSum="100">
+    <TextView
+        android:layout_width="307dp"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="\nBreakout Game\nThis Breakout arcade game version was developed by Vincy Shrine as part of coursework for Human Computer Interaction taken by Professor John Cole at UT Dallas\n\nDescription
+\nThis version allows one player to bounce a ball upward from a moveable paddle,and hit the bricks to score points\nWhen the ball fails to bounce on the paddle, but falls beyond it, you lose a life
+\nAs the game progresses, the difficulty level increases, when player reaches ORANGE bricks - the paddle size is reduced and ball speed is increased
+\n\nFeatures / Open issues\n
+- Using both hands works best to move paddle. Long press on either side of paddle, to move it smoothly\n
+- If the ball speed is set too high, game gets over in a second\n
+- If a ball hits on more than one brick at a time, although number of hits > 1, the bricks disappear\n
+- Ball moves in the direction of phone tilt (Accelerometer)\n
+- During night, the background image turns spooky (Light sensor)
+\n\nReferences: Course material, Google" />
+</LinearLayout>
