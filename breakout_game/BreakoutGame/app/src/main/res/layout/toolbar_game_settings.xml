@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_action_bar_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="80">
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:color="#cb0613"
+            android:layout_weight="50" />
+
+        <ToggleButton
+            android:id="@+id/toggleSoundButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="9"
+            android:background="@null"
+            android:button="@drawable/volume_button" />
+
+        <ImageView
+            android:id="@+id/scoresImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="11"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_scores_im" />
+
+        <ImageView
+            android:id="@+id/helpImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="10"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_help" />
+
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

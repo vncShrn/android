@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BREAKOUT</string>
+    <string name="title_game_completed">SUBMIT SCORE</string>
+    <string name="title_all_scores">ALL SCORES</string>
+    <string name="action_scores">SCORES</string>
+    <string name="action_about">ABOUT</string>
+    <string name="title_about">ABOUT GAME</string>
+</resources>
