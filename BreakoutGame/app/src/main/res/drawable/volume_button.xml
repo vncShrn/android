@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Sound is on -->
-    <item android:drawable="@drawable/ic_vol_on" android:state_checked="true" />
-    <!-- Sound is off -->
-    <item android:drawable="@drawable/ic_vol_off" android:state_checked="false" />
-</selector>
