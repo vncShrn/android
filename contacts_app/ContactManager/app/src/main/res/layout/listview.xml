@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    @author Lopamudra Muduli
+    ListView having 2 textviews for name and phone number layout
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_medium"
+        android:fontFamily="monospace"
+        android:text="sampleName"
+        android:padding="@dimen/row_padding"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_medium"
+        android:fontFamily="monospace"
+        android:text="samplePhone"
+        android:layout_marginLeft="@dimen/row_padding"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>
